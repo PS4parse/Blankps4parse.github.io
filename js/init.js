@@ -255,23 +255,23 @@ Mopi2 = {
         "Enchanted Riposte": "E.Riposte",
         "Enchanted Zwerchhau": "E.Zwerch",
         "Refulgent Arrow": "Ref.Arrow"
-    },
-    
+   },
+
     Order: {
-        DPS: ["Class", "name", "encdps", "damage%", "mergedDamage", "mergedSwings", "DirectHit%", "crithit%", "CritDirectHit%", "maxhit", "deaths"],
-        HPS: ["Class", "name", "enchps", "healed%", "mergedHealed", "mergedEffHealed", "mergedDamageShield", "mergedOverHeal", "overHeal%"]
+        DPS: ["Class", "name", "encdps", "healed%", "crithit%", "DirectHit%", "CritDirectHit%", "deaths", "overHeal%", "maxhit"]
+
     },
-    
+
     ColData: {
         Class: {
             tt: "Job",
             DPS: 1,
-            HPS: 1
+            HPS: 0
         },
         name: {
             tt: "Name",
             DPS: 1,
-            HPS: 1
+            HPS: 0
         },
         duration: {
             tt: "P.Time",
@@ -315,17 +315,17 @@ Mopi2 = {
         },
         "damage%": {
             tt: "D%",
-            DPS: 1,
+            DPS: 0,
             HPS: 0
         },
         mergedDamage: {
             tt: "Damage",
-            DPS: 1,
+            DPS: 0,
             HPS: 0
         },
         mergedSwings: {
             tt: "Swing",
-            DPS: 1,
+            DPS: 0,
             HPS: 0
         },
         mergedHits: {
@@ -386,37 +386,37 @@ Mopi2 = {
         enchps: {
             tt: "HPS",
             DPS: 0,
-            HPS: 1
+            HPS: 0
         },
         "healed%": {
             tt: "H%",
-            DPS: 0,
-            HPS: 1
+            DPS: 1,
+            HPS: 0
         },
         mergedHealed: {
             tt: "Healed",
             DPS: 0,
-            HPS: 1
+            HPS: 0
         },
         mergedEffHealed: {
             tt: "Eff.Heal",
             DPS: 0,
-            HPS: 1
+            HPS: 0
         },
         mergedDamageShield: {
             tt: "D.Shield",
             DPS: 0,
-            HPS: 1
+            HPS: 0
         },
         mergedOverHeal: {
             tt: "OverHeal",
             DPS: 0,
-            HPS: 1
+            HPS: 0
         },
         "overHeal%": {
             tt: "OV.H",
-            DPS: 0,
-            HPS: 1
+            DPS: 1,
+            HPS: 0
         },
         mergedHeals: {
             tt: "Heal",
