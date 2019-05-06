@@ -354,7 +354,7 @@ Mopi2 = {
             HPS: 0
         },
         "DirectHit%": {
-            tt: "D.HIT",
+            tt: "DH%",
             DPS: 1,
             HPS: 0
         },
@@ -364,7 +364,7 @@ Mopi2 = {
             HPS: 0
         },
         "crithit%": {
-            tt: "C.HIT",
+            tt: "Crt%",
             DPS: 1,
             HPS: 0
         },
@@ -374,12 +374,12 @@ Mopi2 = {
             HPS: 0
         },
         "CritDirectHit%": {
-            tt: "C.D.HIT",
+            tt: "CriDH%",
             DPS: 1,
             HPS: 0
         },
         maxhit: {
-            tt: "MaxHit",
+            tt: "Max Hit",
             DPS: 1,
             HPS: 0
         },
@@ -389,7 +389,7 @@ Mopi2 = {
             HPS: 0
         },
         "healed%": {
-            tt: "H%",
+            tt: "Heal%",
             DPS: 1,
             HPS: 0
         },
@@ -414,7 +414,7 @@ Mopi2 = {
             HPS: 0
         },
         "overHeal%": {
-            tt: "OV.H",
+            tt: "Overheal",
             DPS: 1,
             HPS: 0
         },
