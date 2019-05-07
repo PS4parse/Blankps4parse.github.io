@@ -374,7 +374,7 @@ Mopi2 = {
             HPS: 0
         },
         "CritDirectHit%": {
-            tt: "CriDH%",
+            tt: "CrtDH%",
             DPS: 1,
             HPS: 0
         },
