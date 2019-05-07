@@ -54,13 +54,14 @@ function update(lastDPS, lastHPS) {
     $('[name=time]').text(lastDPS.Encounter.duration)
 
     if (init.q.tableOrder == 1)
-        $('div[name=main' + _ + ']').html('<div id="DPSHeader' + _ + '"><div id="DPSoldHeader' + _ + '"></div></div><div id="DPSBody' + _ + '"><div id="DPSoldBody' + _ + '"></div></div>')
+        $('div[name=main' + _ + ']').html('<div id="DPSHeader' + _ + '"><div id="DPSoldHeader' + _ + '"></div></div><div id="DPSBody' + _ + '"><div id="DPSoldBody' + _ + '"></div></div><div id="HPSHeader' + _ + '"><div id="HPSoldHeader' + _ + '"></div></div><div id="HPSBody' + _ + '"><div id="HPSoldBody' + _ + '"></div></div>')
     else
-        $('div[name=main' + _ + ']').html('<div id="DPSHeader' + _ + '"><div id="DPSoldHeader' + _ + '"></div></div><div id="DPSBody' + _ + '"><div id="DPSoldBody' + _ + '"></div></div>')
+        $('div[name=main' + _ + ']').html('<div id="DPSHeader' + _ + '"><div id="DPSoldHeader' + _ + '"></div></div><div id="DPSBody' + _ + '"><div id="DPSoldBody' + _ + '"></div></div><div id="HPSHeader' + _ + '"><div id="HPSoldHeader' + _ + '"></div></div><div id="HPSBody' + _ + '"><div id="HPSoldBody' + _ + '"></div></div>')
     if (lastDPS.Combatant["YOU"] == undefined || lastDPS.Combatant["YOU"] == null) {
         $('[name=rps]').text(l.NAV.main.tt.rps[lang])
     } else {
         var rd = "RD " + addComma(lastDPS.Encounter.ENCDPS) + "　"
+        var rh = "RH " + addComma(lastHPS.Encounter.ENCHPS) + "　"
         var rk = "Rank " + parseInt(lastDPS.Combatant.YOU.rank + 1) + "/" + parseInt(lastHPS.Combatant.YOU.rank + 1) + "/" + lastDPS.partys + "　"
 
         if (init.q.swap == 0)
