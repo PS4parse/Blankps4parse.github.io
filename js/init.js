@@ -105,7 +105,7 @@ Mopi2 = {
         resolution: '100%',    
         overlayBg: 1,            
         overlayBgImg: 'https://i.imgur.com/SIOYhx8.jpg',       
-        overlayBgSize: 'contain',       
+        overlayBgSize: 'cover',       
         overlayBgRepeat: 'no-repeat',      
         backupDate: 'No Data',           
     },
