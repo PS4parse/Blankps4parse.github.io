@@ -14,7 +14,7 @@ Mopi2 = {
         cnt: 1,         
         myName: 0,      
         rank: 0,        
-        mhh: 0,         
+        mhh: 2,         
         mhh_unit:"-",    
         abb: 1,        
         DPS_T: 1,        
