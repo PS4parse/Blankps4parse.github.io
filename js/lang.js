@@ -2897,11 +2897,11 @@ l = {
                 },
                 act_rd: {
                     tt: {
-                        KR: "RDPS",
-                        JP: "RDPS",
-                        EN: "RDPS",
-                        DE: "RDPS",
-                        CN: "RDPS",
+                        KR: "Total Raid Damage",
+                        JP: "Total Raid Damage",
+                        EN: "Total Raid Damage",
+                        DE: "Total Raid Damage",
+                        CN: "Total Raid Damage",
                     },
                     e: "li_checkbox",
                     i: "looks_one",
@@ -2909,11 +2909,11 @@ l = {
                 },
                 act_rh: {
                     tt: {
-                        KR: "RHPS",
-                        JP: "RHPS",
-                        EN: "RHPS",
-                        DE: "RHPS",
-                        CN: "RHPS",
+                        KR: "Total Raid Healing",
+                        JP: "Total Raid Healing",
+                        EN: "Total Raid Healing",
+                        DE: "Total Raid Healing",
+                        CN: "Total Raid Healing",
                     },
                     e: "li_checkbox",
                     i: "looks_two",
