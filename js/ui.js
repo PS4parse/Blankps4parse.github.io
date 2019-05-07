@@ -1197,9 +1197,9 @@ function ui() {
             'padding-left': '1rem',
             'font-size': parseFloat(init.Range.sizeTarget / 10) + 'rem'
         })    
-    if (init.q.boldYOU) var boldYOU = 'bold'
+    if (init.q.boldYOU) var boldYOU = 'normal'
     else var boldYOU = ''
-    if (init.q.boldOther) var boldOther = 'bold'
+    if (init.q.boldOther) var boldOther = 'normal'
     else var boldOther = ''
 
     if (init.q.borderTextType == 'outline')
