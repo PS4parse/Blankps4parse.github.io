@@ -56,7 +56,7 @@ Mopi2 = {
         act_rd: 1,              
         act_rh: 1,
         act_rank: 0,
-        act_max: 1,
+        act_max: 0,
         time_italic:0,          
         target_italic:0,
         rps_italic:0,
