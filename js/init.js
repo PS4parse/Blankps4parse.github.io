@@ -379,7 +379,7 @@ Mopi2 = {
             HPS: 0
         },
         maxhit: {
-            tt: "Max Hit",
+            tt: "MaxHit",
             DPS: 1,
             HPS: 0
         },
