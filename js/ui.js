@@ -1329,6 +1329,9 @@ function ui() {
         height: parseFloat(init.Range.sizeBody / 10) + 'rem',
         'margin-top': parseFloat((init.Range.sizeBody - init.Range.sizeBody) / 10) + 'rem',
     })    
+    $('#HPSBody, #HPSBody_P').find('.pet, .ds, .oh').css({
+        float: init.q.bar_position
+    })
     $('#DPSBody, #DPSBody_P').find('.pet').css({
         float: init.q.bar_position_DPS
     })    
@@ -1355,17 +1358,26 @@ function ui() {
     $('#DPSHeader, #DPSHeader_P').css({
         'margin-top': parseFloat(init.Range.sizeDPSGap / 10) + 'rem',
     })
+    $('#HPSHeader, #HPSHeader_P').css({
+        'margin-top': parseFloat(init.Range.sizeHPSGap / 10) + 'rem',
+    })
     if (!init.q.preview24 && init.q.view24_Number != 1 && view == 'settings') {        
         var tmp = parseInt(init.Range.sizeBody) + parseInt(init.Range.sizeLine)
         if ($('#DPSBody_P').length != 0) {
             $('#DPSBody_P').css({
                 height: parseFloat(tmp * $('#DPSoldBody_P')[0].childElementCount / 10) + 'rem'
             })
+            $('#HPSBody_P').css({
+                height: parseFloat(tmp * $('#HPSoldBody_P')[0].childElementCount / 10) + 'rem'
+            })
             if ($('#DPSoldBody_P')[0].childElementCount >= init.Range.sizeDPSTable) {
                 $('#DPSBody_P').css({
                     height: parseFloat(tmp * init.Range.sizeDPSTable / 10) + 'rem'
                 })
             }
+            if ($('#HPSoldBody_P')[0].childElementCount >= init.Range.sizeHPSTable) {
+                $('#HPSBody_P').css({
+                    height: parseFloat(tmp * init.Range.sizeHPSTable / 10) + 'rem'
                 })
             }
         }
