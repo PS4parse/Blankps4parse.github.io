@@ -853,6 +853,20 @@ l = {
                 HPSfilter: {
                     tt: d.jobFilter,
                     dr: {
+                        HPS_T: {
+                            tt: d.filter_tank
+                        },
+                        HPS_H: {
+                            tt: d.filter_healer
+                        },
+                        HPS_D: {
+                            tt: d.filter_DPS
+                        },
+                        HPS_M: {
+                            tt: d.filter_CL
+                        },
+                        HPS_C: {
+                            tt: d.filter_cbo
                         }
                     },
                     i: "filter_list",
