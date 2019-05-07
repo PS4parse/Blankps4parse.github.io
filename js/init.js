@@ -93,7 +93,7 @@ Mopi2 = {
         alignCell5: 'center',       
         alignCell6: 'center',       
         arrow: 1,              
-        autoHide: 1,            
+        autoHide: 0,            
         tooltips: 1,                
         toast: 1,                
         Lang: "EN",     
