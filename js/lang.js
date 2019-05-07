@@ -844,6 +844,82 @@ l = {
                 deaths: d.deaths
             }
         },
+        tab_HPS: {
+            tt: d.hpsTable,
+            e: "tab_btn",
+            w: 50,
+            p: "format",
+            inner: {
+                HPSfilter: {
+                    tt: d.jobFilter,
+                    dr: {
+                        HPS_T: {
+                            tt: d.filter_tank
+                        },
+                        HPS_H: {
+                            tt: d.filter_healer
+                        },
+                        HPS_D: {
+                            tt: d.filter_DPS
+                        },
+                        HPS_M: {
+                            tt: d.filter_CL
+                        },
+                        HPS_C: {
+                            tt: d.filter_cbo
+                        }
+                    },
+                    i: "filter_list",
+                    e: "li_2line_empty",
+                    p: "format_HPS",
+                    ul: 1
+                },
+                Class: d.Class,
+                name: d.name,
+                duration: d.duration,
+                dps: d.dps,
+                EncounterDuration: d.EncounterDuration,
+                encdps: d.encdps,
+                mergedLast10DPS: d.mergedLast10DPS,
+                mergedLast30DPS: d.mergedLast30DPS,
+                mergedLast60DPS: d.mergedLast60DPS,
+                mergedLast180DPS: d.mergedLast180DPS,
+                "damage%": d["damage%"],
+                mergedDamage: d.mergedDamage,
+                mergedSwings: d.mergedSwings,
+                mergedHits: d.mergedHits,
+                mergedMisses: d.mergedMisses,
+                hitfailed: d.hitfailed,
+                tohit: d.tohit,
+                mergedDirectHitCount: d.mergedDirectHitCount,
+                "DirectHit%": d["DirectHit%"],
+                mergedCrithits: d.mergedCrithits,
+                "crithit%": d["crithit%"],
+                mergedCritDirectHitCount: d.mergedCritDirectHitCount,
+                "CritDirectHit%": d["CritDirectHit%"],
+                maxhit: d.maxhit,
+                enchps: d.enchps,
+                "healed%": d["healed%"],
+                mergedHealed: d.mergedHealed,
+                mergedEffHealed: d.mergedEffHealed,
+                mergedDamageShield: d.mergedDamageShield,
+                mergedOverHeal: d.mergedOverHeal,
+                "overHeal%": d["overHeal%"],
+                mergedHeals: d.mergedHeals,
+                mergedCritheals: d.mergedCritheals,
+                "critheal%": d["critheal%"],
+                maxheal: d.maxheal,
+                mergedDamagetaken: d.mergedDamagetaken,
+                mergedHealstaken: d.mergedHealstaken,
+                mergedAbsorbHeal: d.mergedAbsorbHeal,
+                powerheal: d.powerheal,
+                ParryPct: d.ParryPct,
+                BlockPct: d.BlockPct,
+                mergedCures: d.mergedCures,
+                deaths: d.deaths
+            }
+        }
+    },
     order: {
         tab_DPS: {
             tt: d.dpsTable,
