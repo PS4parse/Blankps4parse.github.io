@@ -2834,7 +2834,7 @@ l = {
                     tt: {
                         KR: "캡쳐 버튼 고정",
                         JP: "キャプチャーボタン固定",
-                        EN: "Fixed of Capture Button",
+                        EN: "Fixed Capture Button",
                         DE: "Zeige den Screenshot-Button immer",
                         CN: "固定截图按钮",
                     },
@@ -2846,7 +2846,7 @@ l = {
                     tt: {
                         KR: "히스토리 버튼 고정",
                         JP: "ヒストリーボタン固定",
-                        EN: "Fixed of History Button",
+                        EN: "Fixed History Button",
                         DE: "Zeige den Historie-Button immer",
                         CN: "固定历史按钮",
                     },
@@ -2858,7 +2858,7 @@ l = {
                     tt: {
                         KR: "전투 집계 종료 버튼 고정",
                         JP: "エンカウント終了ボタン固定",
-                        EN: "Fixed of End-Encounter Button",
+                        EN: "Fixed End-Encounter Button",
                         DE: "Zeige den Stopp Button immer",
                         CN: "固定战斗统计结束按钮",
                     },
