@@ -243,7 +243,7 @@ Mopi2 = {
         sizePdCell4: 2,
         sizePdCell5: 0,
         sizePdCell6: 0,
-        autoHideTime: 3,       
+        autoHideTime: 30,       
     },
     
     Alias: {
