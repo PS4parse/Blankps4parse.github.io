@@ -60,8 +60,8 @@ function update(lastDPS, lastHPS) {
     if (lastDPS.Combatant["YOU"] == undefined || lastDPS.Combatant["YOU"] == null) {
         $('[name=rps]').text(l.NAV.main.tt.rps[lang])
     } else {
-        var rd = "RD " + addComma(lastDPS.Encounter.ENCDPS) + "　"
-        var rh = "RH " + addComma(lastHPS.Encounter.ENCHPS) + "　"
+        var rd = "Total Raid Damage " + addComma(lastDPS.Encounter.ENCDPS) + "　"
+        var rh = "Total Raid Healing " + addComma(lastHPS.Encounter.ENCHPS) + "　"
         var rk = "Rank " + parseInt(lastDPS.Combatant.YOU.rank + 1) + "/" + parseInt(lastHPS.Combatant.YOU.rank + 1) + "/" + lastDPS.partys + "　"
 
         if (init.q.swap == 0)
