@@ -1110,11 +1110,11 @@ l = {
         in_fTarget: d.input_font,
         fRPS: {
             tt: {
-                KR: "RD, RH 등<font class='ex'>　❙ 기본값 ❯ Roboto Condensed</font>",
-                JP: "RD、RHなど<font class='ex'>　❙ 基本値 ❯ Roboto Condensed</font>",
-                EN: "RD, RH, etc.<font class='ex'>　❙ Default ❯ Roboto Condensed</font>",
-                DE: "RD, RH, usw.<font class='ex'>　❙ Voreinstellung ❯ Roboto Condensed</font>",
-                CN: "RD，RH等<font class='ex'>　❙ 默认值 ❯ Roboto Condensed</font>",
+                KR: "Total Raid Damage, Total Raid Healing 등<font class='ex'>　❙ 기본값 ❯ Roboto Condensed</font>",
+                JP: "Total Raid Damage, Total Raid Healingなど<font class='ex'>　❙ 基本値 ❯ Roboto Condensed</font>",
+                EN: "Total Raid Damage, Total Raid Healing, etc.<font class='ex'>　❙ Default ❯ Roboto Condensed</font>",
+                DE: "Total Raid Damage, Total Raid Healing, usw.<font class='ex'>　❙ Voreinstellung ❯ Roboto Condensed</font>",
+                CN: "Total Raid Damage, Total Raid Healing等<font class='ex'>　❙ 默认值 ❯ Roboto Condensed</font>",
             },
             e: 'li_pn',
             ul: 1
@@ -2558,11 +2558,11 @@ l = {
                 },
                 alignHeaderCell6: {
                     tt: {
-                        KR: "RD, RH 등<font class='ex'>　❙ 헤더, 히스토리</font>",
-                        JP: "RD, RHなど<font class='ex'>　❙ ヘッダー、ヒストリー</font>",
-                        EN: "RD, RH, etc.<font class='ex'>　❙ Header, History</font>",
-                        DE: "RD, RH, usw.<font class='ex'>　❙ Kopf, Historie</font>",
-                        CN: "RD, RH等<font class='ex'>　❙ 头部，历史</font>",
+                        KR: "Total Raid Damage, Total Raid Healing 등<font class='ex'>　❙ 헤더, 히스토리</font>",
+                        JP: "Total Raid Damage, Total Raid Healingなど<font class='ex'>　❙ ヘッダー、ヒストリー</font>",
+                        EN: "Total Raid Damage, Total Raid Healing, etc.<font class='ex'>　❙ Header, History</font>",
+                        DE: "Total Raid Damage, Total Raid Healing, usw.<font class='ex'>　❙ Kopf, Historie</font>",
+                        CN: "Total Raid Damage, Total Raid Healing等<font class='ex'>　❙ 头部，历史</font>",
                     },
                     m: d.direction,
                     e: "li_radio",
@@ -2572,11 +2572,11 @@ l = {
                 },
                 alignCell6: {
                     tt: {
-                        KR: "RD, RH 등<font class='ex'>　❙ 바디, 히스토리</font>",
-                        JP: "RD, RHなど<font class='ex'>　❙ ボディ、ヒストリー</font>",
-                        EN: "RD, RH, etc.<font class='ex'>　❙ Body, History</font>",
-                        DE: "RD, RH, usw.<font class='ex'>　❙ Körper, Historie</font>",
-                        CN: "RD, RH等<font class='ex'>　❙ 主体，历史</font>",
+                        KR: "Total Raid Damage, Total Raid Healing 등<font class='ex'>　❙ 바디, 히스토리</font>",
+                        JP: "Total Raid Damage, Total Raid Healingなど<font class='ex'>　❙ ボディ、ヒストリー</font>",
+                        EN: "Total Raid Damage, Total Raid Healing, etc.<font class='ex'>　❙ Body, History</font>",
+                        DE: "Total Raid Damage, Total Raid Healing, usw.<font class='ex'>　❙ Körper, Historie</font>",
+                        CN: "Total Raid Damage, Total Raid Healing等<font class='ex'>　❙ 主体，历史</font>",
                     },
                     m: d.direction,
                     e: "li_radio",
