@@ -102,7 +102,7 @@ Mopi2 = {
         fRPS: 'Roboto Condensed',
         fHd: 'Roboto Condensed',
         fBody: 'Segoe UI',
-        resolution: '125%',    
+        resolution: '100%',    
         overlayBg: 0,            
         overlayBgImg: '',       
         overlayBgSize: 'contain',       
