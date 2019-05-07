@@ -104,7 +104,7 @@ Mopi2 = {
         fBody: 'Segoe UI',
         resolution: '100%',    
         overlayBg: 1,            
-        overlayBgImg: 'https://i.imgur.com/FTsrS4P.jpg',       
+        overlayBgImg: 'https://i.imgur.com/SIOYhx8.jpg',       
         overlayBgSize: 'contain',       
         overlayBgRepeat: 'no-repeat',      
         backupDate: 'No Data',           
