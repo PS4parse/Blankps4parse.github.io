@@ -150,17 +150,7 @@ l = {
                     CN: "请开始战斗。",
                 }
             },
-            dr: {
-                pets: {
-                    tt: {
-                        KR: "소환수 데이터 합산하기",
-                        JP: "ペットのデータを合算する",
-                        EN: "Combine Pets with Owner",
-                        DE: "Charakter und Begleiter zusammenfassen",
-                        CN: "召唤物与自身数据合并",
-                    },
-                    e: ""
-                },
+        },
                 view24: {
                     tt: {
                         KR: "레이드 모드",
@@ -170,16 +160,6 @@ l = {
                         CN: "副本模式",
                     },
                     e: "dr_checkbox"
-                },
-                hideName: {
-                    tt: {
-                        KR: "이름 숨기기",
-                        JP: "名前を隠す",
-                        EN: "Hide the Name",
-                        DE: "Namen ausblenden",
-                        CN: "隐藏名称",
-                    },
-                    e: ""
                 },
                 fullscreen: {
                     tt: d.fullscreen,
