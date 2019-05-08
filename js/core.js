@@ -550,6 +550,7 @@ function Person(e, p) {
         DamageShield: this.damageShield,
         OverHeal: this.overHeal,
         AbsorbHeal: this.absorbHeal,
+        Ally: this.ally,
         Last10DPS: this.Last10DPS,
         Last30DPS: this.Last30DPS,
         Last60DPS: this.Last60DPS,
@@ -907,4 +908,4 @@ var maxhp = 100;
 var myID = 0;
 var myName = "";
 var underDot = 2;
-var sortKey = "encdps"
+var sortKey = "ally"
