@@ -3,11 +3,11 @@ Mopi2 = {
     q: {
         keyboard: 1,      
         swap: 0,  
-        pets: 1,        
+        pets: 1,    
+        hideName: 0,
         dpsType: 0,     
         perType: 1,     
         dmgType: 1, 
-        myName: 0,
         ds: ".",        
         ns: 1,          
         gs: ",",        
