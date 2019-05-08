@@ -554,7 +554,6 @@ function Person(e, p) {
         Last30DPS: this.Last30DPS,
         Last60DPS: this.Last60DPS,
         Last180DPS: this.Last180DPS,
-        ally: this.ally,
     };
     try {
         var regex = /(?:.*?)\((.*?)\)/im;
@@ -908,4 +907,4 @@ var maxhp = 100;
 var myID = 0;
 var myName = "";
 var underDot = 2;
-var sortKey = "ally, encdps"
+var sortKey = "encdps"
