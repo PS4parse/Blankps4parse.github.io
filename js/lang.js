@@ -179,7 +179,7 @@ l = {
                         DE: "Namen ausblenden",
                         CN: "隐藏名称",
                     },
-                    e: "dr_checkbox"
+                    e: ""
                 },
                 fullscreen: {
                     tt: d.fullscreen,
