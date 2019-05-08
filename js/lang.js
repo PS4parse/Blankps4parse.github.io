@@ -2911,18 +2911,6 @@ l = {
                     i: "looks_3",
                     ul: 0
                 },
-                act_max: {
-                    tt: {
-                        KR: "MaxHit, MaxHeal<font class='ex'>　❙ 내 캐릭터</font>",
-                        JP: "MaxHit、MaxHeal<font class='ex'>　❙ 自分のキャラクター</font>",
-                        EN: "MaxHit, MaxHeal<font class='ex'>　❙ My Character</font>",
-                        DE: "MaxHit, MaxHeal<font class='ex'>　❙ Eigenen Charakter</font>",
-                        CN: "MaxHit，MaxHeal<font class='ex'>　❙ 自己角色</font>",
-                    },
-                    e: "li_checkbox",
-                    i: "looks_4",
-                    ul: 0
-                },
                 time_italic: {
                     tt: {
                         KR: "글자 기울임<font class='ex'>　❙ 시간</font>",
@@ -3008,30 +2996,6 @@ l = {
                     i: "grid_on",
                     ul: 0
                 },               
-                boldYOU: {
-                    tt: {
-                        KR: "글자 굵게<font class='ex'>　❙ 내 캐릭터</font>",
-                        JP: "太字<font class='ex'>　❙ 自分のキャラクター</font>",
-                        EN: "Bold lettering<font class='ex'>　❙ My Character</font>",
-                        DE: "Fette Buchstaben<font class='ex'>　❙ Eigenen Charakter</font>",
-                        CN: "粗体<font class='ex'>　❙ 自己角色</font>",
-                    },
-                    e: "li_checkbox",
-                    i: "format_bold",
-                    ul: 1
-                },
-                boldOther: {
-                    tt: {
-                        KR: "글자 굵게<font class='ex'>　❙ 타 캐릭터</font>",
-                        JP: "太字<font class='ex'>　❙ 他のキャラクター</font>",
-                        EN: "Bold lettering<font class='ex'>　❙ Other Character</font>",
-                        DE: "Fette Buchstaben<font class='ex'>　❙ Andere Charaktere</font>",
-                        CN: "粗体<font class='ex'>　❙ 其他角色</font>",
-                    },
-                    e: "li_checkbox",
-                    i: "format_bold",
-                    ul: 0
-                },
                 header_italic: {
                     tt: {
                         KR: "글자 기울임<font class='ex'>　❙ 헤더</font>",
