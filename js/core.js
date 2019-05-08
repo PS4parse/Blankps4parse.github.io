@@ -907,4 +907,4 @@ var maxhp = 100;
 var myID = 0;
 var myName = "";
 var underDot = 2;
-var sortKey = "encdps"
+var sortKey = "ally, encdps"
