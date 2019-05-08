@@ -356,6 +356,7 @@ function addData(colName, a, p) {
         case 'P.Time':
             return a
         case 'PARRY':
+        case 'ALLY':    
         case 'BLOCK':
             return addComma(a) + '<font class="ex">%</font>';
         case 'P.DPS':
