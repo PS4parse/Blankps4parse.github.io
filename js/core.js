@@ -554,6 +554,7 @@ function Person(e, p) {
         Last30DPS: this.Last30DPS,
         Last60DPS: this.Last60DPS,
         Last180DPS: this.Last180DPS,
+        ally: this.ally,
     };
     try {
         var regex = /(?:.*?)\((.*?)\)/im;
