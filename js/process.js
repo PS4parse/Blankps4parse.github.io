@@ -619,8 +619,20 @@ function historyAddRow() {
     td.innerHTML = lastDPS.Encounter.duration;
     td.className = "cell_5";
     var td = tr.insertCell();
+    if(lastDPS.persons.YOU != null)
+        td.innerHTML = addComma(lastDPS.persons.YOU.ENCDPS)
+    else 
+        td.innerHTML = 'No Data' 
+    td.className = "cell_6 ac";
+    var td = tr.insertCell();
     td.innerHTML = addComma(lastDPS.Encounter.ENCDPS)
     td.className = "cell_6";
+    var td = tr.insertCell();
+    if(lastHPS.persons.YOU != null)
+        td.innerHTML = addComma(lastHPS.persons.YOU.ENCHPS)    
+    else 
+        td.innerHTML = 'No Data' 
+    td.className = "cell_6 ac";
     var td = tr.insertCell();
     td.innerHTML = addComma(lastHPS.Encounter.ENCHPS)
     td.className = "cell_6";
