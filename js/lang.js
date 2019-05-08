@@ -165,10 +165,6 @@ l = {
                     tt: d.fullscreen,
                     e: "dr_link"
                 },
-                settings: {
-                    tt: d.settings,
-                    e: "dr_link"
-                }
             },
             btn: {
                 Capture: {
