@@ -467,6 +467,11 @@ Mopi2 = {
             DPS: 0,
             HPS: 0
         },
+        InParty: {
+            tt: "ALLY",
+            DPS: 0,
+            HPS: 0
+        },
         mergedCures: {
             tt: "Dispel",
             DPS: 0,
