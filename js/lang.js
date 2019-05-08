@@ -820,6 +820,7 @@ l = {
                 powerheal: d.powerheal,
                 ParryPct: d.ParryPct,
                 BlockPct: d.BlockPct,
+                InParty: d.InParty,
                 mergedCures: d.mergedCures,
                 deaths: d.deaths
             }
@@ -895,6 +896,7 @@ l = {
                 powerheal: d.powerheal,
                 ParryPct: d.ParryPct,
                 BlockPct: d.BlockPct,
+                InParty: d.InParty,
                 mergedCures: d.mergedCures,
                 deaths: d.deaths
             }
