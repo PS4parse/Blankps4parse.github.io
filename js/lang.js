@@ -159,7 +159,7 @@ l = {
                         DE: "Charakter und Begleiter zusammenfassen",
                         CN: "召唤物与自身数据合并",
                     },
-                    e: "dr_checkbox"
+                    e: ""
                 },
                 view24: {
                     tt: {
