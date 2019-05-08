@@ -1064,6 +1064,18 @@ d = {
         e: "li_2line_checkbox",
         ul: 0
     },
+    InParty: {
+        tt: "ALLY",
+        m: {
+            KR: "In current Party Together",
+            JP: "In current Party Together",
+            EN: "In current Party Together",
+            DE: "In current Party Together",
+            CN: "In current Party Together",
+        },
+        e: "li_2line_checkbox",
+        ul: 0
+    },
     mergedCures: {
         tt: "Dispel",
         m: {
