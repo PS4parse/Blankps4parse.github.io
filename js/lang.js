@@ -145,7 +145,7 @@ l = {
                 rps: {
                     KR: '전투를 시작하세요.',
                     JP: '戦闘を始めてください。',
-                    EN: 'Enter Combat to Begin. Be Kind or Do Not Use. ',
+                    EN: 'Enter Combat to Begin. This is a Tool for Self-Improvement. Not Harassment. ',
                     DE: 'Warte auf Kampf.',
                     CN: "请开始战斗。",
                 }
