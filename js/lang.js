@@ -171,9 +171,6 @@ l = {
                 }
             },
             btn: {
-                Capture: {
-                    m: d.Capture
-                },
                 History: {
                     m: {
                         KR: "히스토리<font class='ex'>　❙ 비전투시</font>",
@@ -181,15 +178,6 @@ l = {
                         EN: "History<font class='ex'>　❙ When not in combat</font>",
                         DE: "Historie<font class='ex'>　❙ Wenn nicht im Kampf</font>",
                         CN: "历史<font class='ex'>　❙ 非战斗时</font>",
-                    }
-                },
-                RequestEnd: {
-                    m: {
-                        KR: '전투 집계 종료',
-                        JP: 'エンカウント終了',
-                        EN: 'End Encounter',
-                        DE: 'Stoppe den Kampf',
-                        CN: "战斗统计结束",
                     }
                 },
                 More: {
@@ -209,9 +197,6 @@ l = {
                 Back: {
                     m: d.Back
                 },
-                Capture: {
-                    m: d.Capture
-                }
             }
         },
         settings: {
@@ -2881,18 +2866,6 @@ l = {
                     p: "advanced_nav",
                     ul: 0
                 },
-                btn_Capture: {
-                    tt: {
-                        KR: "캡쳐 버튼 고정",
-                        JP: "キャプチャーボタン固定",
-                        EN: "Fixed Capture Button",
-                        DE: "Zeige den Screenshot-Button immer",
-                        CN: "固定截图按钮",
-                    },
-                    e: "li_checkbox",
-                    i: "camera",
-                    ul: 1
-                },
                 btn_History: {
                     tt: {
                         KR: "히스토리 버튼 고정",
@@ -2903,18 +2876,6 @@ l = {
                     },
                     e: "li_checkbox",
                     i: "history",
-                    ul: 0
-                },
-                btn_RequestEnd: {
-                    tt: {
-                        KR: "전투 집계 종료 버튼 고정",
-                        JP: "エンカウント終了ボタン固定",
-                        EN: "Fixed End-Encounter Button",
-                        DE: "Zeige den Stopp Button immer",
-                        CN: "固定战斗统计结束按钮",
-                    },
-                    e: "li_checkbox",
-                    i: "timer_off",
                     ul: 0
                 },
                 act: {
