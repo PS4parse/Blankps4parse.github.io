@@ -2948,11 +2948,11 @@ l = {
                 },
                 act_rd: {
                     tt: {
-                        KR: "Combined Raid Damage -",
-                        JP: "Combined Raid Damage -",
-                        EN: "Combined Raid Damage -",
-                        DE: "Combined Raid Damage -",
-                        CN: "Combined Raid Damage -",
+                        KR: "Combined Raid DPS -",
+                        JP: "Combined Raid DPS -",
+                        EN: "Combined Raid DPS -",
+                        DE: "Combined Raid DPS -",
+                        CN: "Combined Raid DPS -",
                     },
                     e: "li_checkbox",
                     i: "looks_one",
@@ -2960,11 +2960,11 @@ l = {
                 },
                 act_rh: {
                     tt: {
-                        KR: "Total Raid Healing -",
-                        JP: "Total Raid Healing -",
-                        EN: "Total Raid Healing -",
-                        DE: "Total Raid Healing -",
-                        CN: "Total Raid Healing -",
+                        KR: "Total Raid HPS -",
+                        JP: "Total Raid HPS -",
+                        EN: "Total Raid HPS -",
+                        DE: "Total Raid HPS -",
+                        CN: "Total Raid HPS -",
                     },
                     e: "li_checkbox",
                     i: "looks_two",
