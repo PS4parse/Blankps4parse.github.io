@@ -1,4 +1,4 @@
-l = {
+﻿l = {
     Notice: {
         strong: {
             KR: '<b style="color:#ffbb00">모피모피 2<br>놀라운 커스터마이징을 경험하세요!</b><br>문의: 모그리/해루<br><br>모바일과 방송(OBS Studio, XSplit 등) 유저는<br><a href="http://ffxivhaeru.blog.me/221324327150" target="_blank">ACTWebSocket 1.3.3.9 버전 이상</a>을 설치해야 합니다.<br>모바일 환경에서는 <b>크롬 또는 사파리</b> 앱을 권장합니다.<br><br>Please select <b>your language :</b><br><a href="#" id="KR" onclick="initOverlay(this.id)">한국어</a> ❘ <a href="#" id="JP" onclick="initOverlay(this.id)">日本語</a> ❘ <a href="#" id="CN" onclick="initOverlay(this.id)">中國語</a> ❘ <a href="#" id="EN" onclick="initOverlay(this.id)">English</a> ❘ <a href="#" id="DE" onclick="initOverlay(this.id)">Deutsch</a><br>',
@@ -1498,6 +1498,18 @@ l = {
                 e: "li_color",
                 ul: 0
             },
+            GNB: {
+                tt: {
+                    KR: "Gunbreaker",
+                    JP: "ガンブレイカー",
+                    EN: "Gunbreaker",
+                    DE: "Revolverklinge",
+                    CN: "Gunbreaker",
+                },
+                i: "<img src='./images/icon/frame/GNB.png'/>",
+                e: "li_color",
+                ul: 0
+            },
             WHM: {
                 tt: {
                     KR: "백마도사 & 환술사",
@@ -1603,6 +1615,18 @@ l = {
                     CN: "机工士"
                 },
                 i: "<img src='./images/icon/frame/MCH.png'/>",
+                e: "li_color",
+                ul: 0
+            },
+            DNC: {
+                tt: {
+                    KR: "Dancer",
+                    JP: "踊り子",
+                    EN: "Dancer",
+                    DE: "Tänzer",
+                    CN: "Dancer"
+                },
+                i: "<img src='./images/icon/frame/DNC.png'/>",
                 e: "li_color",
                 ul: 0
             },
