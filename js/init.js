@@ -135,7 +135,7 @@ Mopi2 = {
         PLD: "7B9AA2",
         WAR: "A91A16",
         DRK: "682531",
-        GNB: "796D30",
+        GNB: "1A7966",
         WHM: "BDBDBD",
         SCH: "32307B",
         AST: "B1561C",
