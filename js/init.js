@@ -26,7 +26,7 @@ Mopi2 = {
         HPS_D: 0,
         HPS_M: 0,
         HPS_C: 0,
-        unit: 1,                
+        unit: 0,                
         max_unit:0,             
         preview: 0,             
         preview24: 0,            
