@@ -123,7 +123,7 @@ Mopi2 = {
         tableOther: "FFFFFF",   
         view24TableYOU: "FFFFFF",     
         view24TableOther: "FFFFFF",   
-        view24BgYOU: "03A9F4",     
+        view24BgYOU: "000000",     
         view24BgOther: "000000",   
         tableLine: "FFFFFF",    
         tableLineVer: "FFFFFF",    
