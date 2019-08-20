@@ -30,7 +30,7 @@ d = {
     Capture: {
         KR: "캡쳐<font class='ex'>　❙ PC</font>",
         JP: "キャプチャー<font class='ex'>　❙ PC</font>",
-        EN: "Capture<font class='ex'>　❙ PC</font>",
+        EN: "Screenshot<font class='ex'>　❙ Currently Unavailable. Sorry!</font>",
         DE: "Screenshot<font class='ex'>　❙ PC</font>",
         CN: "截图<font class='ex'>　❙ PC</font>",
     },
